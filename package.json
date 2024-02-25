@@ -1,0 +1,17 @@
+### JavaScript Project with npm
+
+*package.json*:
+json
+{
+  "name": "world-clock-npm",
+  "version": "1.0.0",
+  "description": "A simple Node.js application to convert times between time zones",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
+}
