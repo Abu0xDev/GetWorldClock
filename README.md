@@ -7,12 +7,12 @@ A simple Node.js application to convert times between time zones using Moment.js
 Install the dependencies with npm:
 
 bash
-npm install
+npm install moment-timezone
 
 Usage
 
 Replace the example usage in index.js with the time and time zones you wish to convert.
 
-Run the script with npm
+Run the script with command:
 
-npm start
+node convertTime.js
